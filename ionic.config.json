@@ -1,0 +1,7 @@
+{
+  "name": "myCar",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

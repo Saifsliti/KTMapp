@@ -1,0 +1,76 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Drive
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large" style="color: brown;" class="ion-text-center">Drive</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <div id="container">
+    <ion-row>
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Battery</ion-card-title>
+        <ion-card-subtitle>50%</ion-card-subtitle>
+       
+      </ion-card-header>
+    </ion-card>
+
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Speed</ion-card-title>
+        <ion-card-subtitle>00 M/S</ion-card-subtitle>
+      </ion-card-header>
+    </ion-card>
+
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Position</ion-card-title>
+        <ion-card-subtitle>X=0 Y=0</ion-card-subtitle>
+      </ion-card-header>
+    </ion-card>
+
+    <ion-list>
+      <ion-list-header>
+        <ion-label>
+          Select your Car
+        </ion-label>
+      </ion-list-header>
+      <ion-item>
+        <ion-label>Car</ion-label>
+        <ion-select multiple="false" [value]="['one']">
+          <ion-select-option value="one">1</ion-select-option>
+          <ion-select-option value="tow">2</ion-select-option>
+          <ion-select-option value="three">3</ion-select-option>
+        </ion-select>
+      </ion-item>
+    </ion-list>
+  </ion-row>
+  </div>
+<ion-row>
+<ion-col class="up">
+  <div>
+  <ion-button color="dark" > <ion-icon style="font-size:xx-large;" name="caret-up"></ion-icon></ion-button>
+</div>
+<div>
+  <ion-button  color="dark" > <ion-icon style="font-size:xx-large;" name="caret-down"></ion-icon></ion-button>
+</div>
+</ion-col>
+
+<ion-row class="right">
+  <div>
+    <ion-button color="dark" > <ion-icon style="font-size:xx-large;" name="caret-back"></ion-icon></ion-button>
+  </div>
+  <div>
+  <ion-button color="dark" > <ion-icon style="font-size:xx-large;" name="caret-forward"></ion-icon></ion-button>
+</div>
+</ion-row>
+</ion-row>
+  
+</ion-content>
