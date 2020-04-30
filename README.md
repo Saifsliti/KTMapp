@@ -1,2 +1,2 @@
 # KTMapp
-driving app for Android an Ios
+driving app for Android and Ios
